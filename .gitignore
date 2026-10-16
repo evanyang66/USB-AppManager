@@ -1,0 +1,9 @@
+artifacts/
+diagnostics/
+logs/
+日志/
+node_modules/
+*.log
+*.bak*
+.DS_Store
+Thumbs.db
