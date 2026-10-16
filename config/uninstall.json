@@ -1,0 +1,103 @@
+﻿{
+  "SchemaVersion": 1,
+  "Products": [
+    {
+      "Id": "U-01",
+      "Name": "360安全浏览器",
+      "Aliases": [
+        "360安全浏览器"
+      ],
+      "ForceInteractive": true,
+      "PublisherPattern": "(?i)^(360安全中心|360\\.cn|北京奇虎科技有限公司|北京奇虎360科技有限公司|360)$",
+      "DirectoryPattern": "(?i)\\\\(360|360se6|360se|360Browser)(\\\\|$)"
+    },
+    {
+      "Id": "U-02",
+      "Name": "360安全卫士",
+      "Aliases": [
+        "360安全卫士"
+      ],
+      "ForceInteractive": true,
+      "PublisherPattern": "(?i)^(360安全中心|360\\.cn|北京奇虎科技有限公司|北京奇虎360科技有限公司|360)$",
+      "DirectoryPattern": "(?i)\\\\(360|360Safe)(\\\\|$)"
+    },
+    {
+      "Id": "U-03",
+      "Name": "Google Chrome",
+      "Aliases": [
+        "Google Chrome"
+      ],
+      "ForceInteractive": true,
+      "PublisherPattern": "(?i)^Google (LLC|Inc\\.?|Ireland Limited)$",
+      "DirectoryPattern": "(?i)\\\\Google\\\\Chrome(\\\\|$)"
+    },
+    {
+      "Id": "U-04",
+      "Name": "2345加速浏览器",
+      "Aliases": [
+        "2345加速浏览器",
+        "加速浏览器-2345",
+        "2345加速浏览器电脑版"
+      ],
+      "ForceInteractive": true,
+      "PublisherPattern": "^(上海二三四五.*有限公司|2345\\.com)$",
+      "DirectoryPattern": "(?i)\\\\(2345[^\\\\]*|Huayang[^\\\\]*)(\\\\|$)"
+    },
+    {
+      "Id": "U-05",
+      "Name": "安全组件-2345",
+      "Aliases": [
+        "安全组件-2345"
+      ],
+      "ForceInteractive": false,
+      "PublisherPattern": "^(上海二三四五.*有限公司|2345\\.com)$",
+      "DirectoryPattern": "(?i)\\\\2345[^\\\\]*(\\\\|$)"
+    },
+    {
+      "Id": "U-06",
+      "Name": "老毛桃U盘启动装机工具",
+      "Aliases": [
+        "老毛桃U盘启动装机工具",
+        "老毛桃U盘启动盘制作工具"
+      ],
+      "ForceInteractive": true
+    },
+    {
+      "Id": "U-07",
+      "Name": "Windows系统工具",
+      "Aliases": [
+        "Windows系统工具"
+      ],
+      "ForceInteractive": true
+    },
+    {
+      "Id": "U-08",
+      "Name": "驱动人生",
+      "Aliases": [
+        "驱动人生",
+        "驱动人生8",
+        "驱动人生8 正式版"
+      ],
+      "ForceInteractive": true,
+      "PublisherPattern": "^(深圳市驱动人生科技股份有限公司|深圳市驱动人生软件技术有限公司)$",
+      "DirectoryPattern": "(?i)\\\\(DTLSoft|DriveTheLife[0-9]*|DriverLife)(\\\\|$)"
+    },
+    {
+      "Id": "U-09",
+      "Name": "超级兔子数据恢复",
+      "Aliases": [
+        "超级兔子数据恢复"
+      ],
+      "ForceInteractive": true
+    },
+    {
+      "Id": "U-10",
+      "Name": "淘宝",
+      "Aliases": [
+        "淘宝",
+        "淘宝电脑版"
+      ],
+      "ForceInteractive": true
+    }
+  ]
+}

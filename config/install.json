@@ -1,0 +1,97 @@
+﻿{
+  "SchemaVersion": 1,
+  "Products": [
+    {
+      "Id": "qq",
+      "Name": "QQ",
+      "Aliases": [
+        "QQ",
+        "腾讯QQ"
+      ],
+      "WingetId": "Tencent.QQ.NT",
+      "OfficialPage": "https://im.qq.com/index/#/windows",
+      "Download": {
+        "Mode": "PageLink",
+        "PageUrl": "https://qq-web.cdn-go.cn/im.qq.com_new/latest/rainbow/pcConfig.json",
+        "Pattern": "\"Windows\"\\s*:\\s*\\{[^{}]*?\"ntDownloadX64Url\"\\s*:\\s*\"(?<url>https://qqdl\\.gtimg\\.cn/qqfile/QQNT(?:V2)?/[^\"\\s<>]+_x64_[0-9]+\\.exe(?:\\?[^\"\\s<>]*)?)\"",
+        "Url": "",
+        "AllowedHosts": [
+          "im.qq.com",
+          "qq-web.cdn-go.cn",
+          "qqdl.gtimg.cn"
+        ],
+        "Architecture": "x64",
+        "X86Url": ""
+      },
+      "AllowedSignerNames": [
+        "Tencent Technology (Shenzhen) Company Limited"
+      ],
+      "ProductNames": [
+        "QQ"
+      ],
+      "InstallMode": "Silent",
+      "SilentArgs": "/s"
+    },
+    {
+      "Id": "wechat",
+      "Name": "微信",
+      "Aliases": [
+        "微信",
+        "WeChat"
+      ],
+      "WingetId": "Tencent.WeChat.Universal",
+      "OfficialPage": "https://windows.weixin.qq.com/?lang=zh_CN",
+      "Download": {
+        "Mode": "PageLink",
+        "PageUrl": "https://windows.weixin.qq.com/?lang=zh_CN",
+        "Pattern": "<a\\b(?=[^>]*\\bid=[\"']downloadButton[\"'])[^>]*\\bhref=[\"'](?<url>https://dldir1v6\\.qq\\.com/weixin/Universal/Windows/WeChatWin_4\\.[0-9]+(?:\\.[0-9]+)*\\.exe(?:\\?[^\"'\\s<>]*)?)[\"']",
+        "Url": "",
+        "AllowedHosts": [
+          "windows.weixin.qq.com",
+          "dldir1v6.qq.com"
+        ],
+        "Architecture": "x64",
+        "X86Url": ""
+      },
+      "AllowedSignerNames": [
+        "Tencent Technology (Shenzhen) Company Limited"
+      ],
+      "ProductNames": [
+        "微信电脑版"
+      ],
+      "InstallMode": "Silent",
+      "SilentArgs": "/S"
+    },
+    {
+      "Id": "sogou",
+      "Name": "搜狗高速浏览器",
+      "Aliases": [
+        "搜狗高速浏览器",
+        "搜狗浏览器"
+      ],
+      "WingetId": "",
+      "OfficialPage": "https://sogou.browser.qq.com/",
+      "Download": {
+        "Mode": "PageLink",
+        "PageUrl": "https://sogou.browser.qq.com/",
+        "Pattern": "\"defaultDownloadUrl\"\\s*:\\s*\"(?<url>https://pcchannel\\.imtt\\.qq\\.com/channel/SogouExplorer_Setup_x64_[0-9]+\\.exe(?:\\?[^\"\\s<>]*)?)\"",
+        "Url": "",
+        "AllowedHosts": [
+          "ie.sogou.com",
+          "sogou.browser.qq.com",
+          "pcchannel.imtt.qq.com"
+        ],
+        "Architecture": "x64",
+        "X86Url": "https://pcchannel.imtt.qq.com/channel/SogouExplorer_Setup_2100110000.exe"
+      },
+      "AllowedSignerNames": [
+        "Beijing Sogou Technology Development Co., Ltd."
+      ],
+      "ProductNames": [
+        "搜狗高速浏览器"
+      ],
+      "InstallMode": "Silent",
+      "SilentArgs": "/S /isrunbrowser=0 /setdefbrowser=0 /createdaohang1=0 /installservice=0 /installdriver=0 /disableyybguide"
+    }
+  ]
+}

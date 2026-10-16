@@ -1,0 +1,9 @@
+{
+  "SchemaVersion": 1,
+  "Products": [
+    {"Id":"pcmanager","Name":"电脑管家","Aliases":["电脑管家","Microsoft PC Manager","微软电脑管家"],"PackageNames":["Microsoft.MicrosoftPCManager","Microsoft.PCManager"]},
+    {"Id":"movies","Name":"电影和电视","Aliases":["电影和电视","Movies & TV"],"PackageNames":["Microsoft.ZuneVideo"]},
+    {"Id":"snip","Name":"截图和草图","Aliases":["截图和草图","Snip & Sketch","Snipping Tool"],"PackageNames":["Microsoft.ScreenSketch"]}
+  ],
+  "SharedComponentPattern":"(?i)(Microsoft (Visual C\\+\\+|Windows Desktop Runtime|ASP\\.NET|\\.NET|Edge)|WebView2|Windows App Runtime|WindowsAppRuntime|Windows Driver Package|AMD Software|NVIDIA (Graphics|图形)|Intel.*(Graphics|图形))"
+}
