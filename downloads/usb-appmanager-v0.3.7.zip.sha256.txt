@@ -1,0 +1,1 @@
+1a922b89fd59c7b2cab9ad8dad14fbe8921796440cdb125912ba76dd4edfc443  usb-appmanager-v0.3.7.zip
